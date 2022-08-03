@@ -5,11 +5,6 @@ NOTE: You can open this sample inside an IDE using the [IntelliJ native importer
 This sample shows how a Spring Boot Web application can be built with Gradle.
 The application was generated using the [Spring Initializr](https://start.spring.io/#!type=gradle-project).
 
-====
-include::sample[dir="groovy",files="app/build.gradle[]"]
-include::sample[dir="kotlin",files="app/build.gradle.kts[]"]
-====
-
 To build and run the application:
 
 ```
