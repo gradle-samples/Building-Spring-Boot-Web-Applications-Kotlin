@@ -1,16 +1,9 @@
-:samples-dir: /home/tcagent1/agent/work/64493a816be20d5a/promote-projects/gradle/build/git-checkout/subprojects/docs/build/working/samples/install/building-spring-boot-web-applications
-:gradle-version: 7.5-rc-5
+## Building Spring Boot Web Applications Sample
 
-= Building Spring Boot Web Applications Sample
-
-[.download]
-- link:zips/sample_building_spring_boot_web_applications-groovy-dsl.zip[icon:download[] Groovy DSL]
-- link:zips/sample_building_spring_boot_web_applications-kotlin-dsl.zip[icon:download[] Kotlin DSL]
-
-NOTE: You can open this sample inside an IDE using the https://www.jetbrains.com/help/idea/gradle.html#gradle_import_project_start[IntelliJ native importer] or https://projects.eclipse.org/projects/tools.buildship[Eclipse Buildship].
+NOTE: You can open this sample inside an IDE using the [IntelliJ native importer](https://www.jetbrains.com/help/idea/gradle.html#gradle_import_project_start) or [Eclipse Buildship](https://projects.eclipse.org/projects/tools.buildship).
 
 This sample shows how a Spring Boot Web application can be built with Gradle.
-The application was generated using the https://start.spring.io/#!type=gradle-project[Spring Initializr].
+The application was generated using the [Spring Initializr](https://start.spring.io/#!type=gradle-project).
 
 ====
 include::sample[dir="groovy",files="app/build.gradle[]"]
@@ -19,10 +12,11 @@ include::sample[dir="kotlin",files="app/build.gradle.kts[]"]
 
 To build and run the application:
 
-[listing.terminal]
-----
-$ ./gradlew bootRun
+```
+./gradlew bootRun
+```
 
+```
 > Task :app:bootRun
 
   .   ____          _            __ _ _
@@ -39,7 +33,7 @@ $ ./gradlew bootRun
 
 BUILD SUCCESSFUL
 3 actionable tasks: 3 executed
-----
+```
 
-For more information, we suggest reading link:{userManualPath}/getting_started.html[Getting Started with Gradle].
-You can also find https://spring.io/guides[Spring Boot related information inside the guides provided by the Spring team].
+For more information, we suggest reading link:[Getting_started](https://docs.gradle.org/current/userguide/getting_started.html).
+You can also find [Spring Boot related information inside the guides provided by the Spring team](https://spring.io/guides).
